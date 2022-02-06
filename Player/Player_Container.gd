@@ -7,3 +7,5 @@ func _physics_process(_delta):
 		var player = Player.instance()
 		player.position = Vector2(512,300)
 		add_child(player)
+
+
